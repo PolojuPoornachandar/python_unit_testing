@@ -4,7 +4,7 @@ import calculations
 class Test_Calculations(unittest.TestCase):
 
     def test_add(self):
-        self.assertEqual(calculatios.add(10, 5), 15)
+        self.assertEqual(calculations.add(10, 5), 15)
         self.assertEqual(calculations.add(100, 1), 101)
         self.assertEqual(calculations.add(-88, 88), 0)
         self.assertEqual(calculations.add(2, 2), 4)
