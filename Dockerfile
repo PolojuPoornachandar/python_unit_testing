@@ -10,10 +10,11 @@ COPY requirements.txt /app/
 # Step 4: Copy the rest of your application code to the container
 COPY . /app/
 
-# Step 5: Expose the port that your application runs on
+# Step 5: Expose the port that your application runs on (only if needed, for example for a web app)
 EXPOSE 5000
 
 # Step 6: Run the application (adjust this based on how you want to execute your tests)
-CMD ["python", "-m", "unittest", "discover", "-s", "test_calculations.py"]
+# Change this line to run your specific test file
+CMD ["python", "-m", "unittest", "test_calculations.py"]
 
 
