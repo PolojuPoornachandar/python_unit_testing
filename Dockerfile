@@ -15,6 +15,6 @@ EXPOSE 5000
 
 # Step 6: Run the application (adjust this based on how you want to execute your tests)
 # Change this line to run your specific test file
-CMD ["python", "-m", "unittest", "test_calculations.py"]
+CMD ["python", "-m", "unittest", "tests"]
 
 
