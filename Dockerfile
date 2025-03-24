@@ -14,6 +14,6 @@ COPY . /app/
 EXPOSE 5000
 
 # Step 6: Run the application (adjust this based on how you want to execute your tests)
-CMD ["python", "-m", "unittest", "discover", "-s", "tests"]
+CMD ["python", "-m", "unittest", "discover", "-s", "test_calculations.py"]
 
 
